@@ -48,7 +48,7 @@ body {
 #otherMenus{
     display: flex;
     align-items: center;
-    margin-left: 19%;
+    margin-left: 16%;
 }
 
 
@@ -79,7 +79,7 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: var(--lightText);
+    background-color: var(--dark);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -93,7 +93,8 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: var(--dark);
+    background-color: var(--material);
+    color: var(--lightText);
 }
 
 .dropdown:hover .dropdown-content {
@@ -115,10 +116,6 @@ body {
    
 }
 
-#signupButton:hover{
-    background-color: #0f1035d0;
-}
-
 .aM, #a1{
     font-size: 20px;
     text-decoration: none;
@@ -130,6 +127,18 @@ body {
     
 }
 
+.aM:hover, #a1:hover{
+  font-weight: 600;
+}
+
 i{
     padding-left: 5%;
+}
+
+#modeColor{
+    
+    font-size: 28px;
+    margin-left: 2%;
+    cursor: pointer;
+   
 }
