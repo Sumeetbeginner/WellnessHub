@@ -1,5 +1,7 @@
 
-import { changeTheme } from ".";
+import { changeTheme } from "./index.js";
+
+changeTheme();
 
 const firebaseConfig = {
     apiKey: "AIzaSyCJwPz8g3mSrtoOllv5t1XUjfCOtOfEFkE",
@@ -16,6 +18,8 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 
-changeTheme()
+
+
+
 
 
